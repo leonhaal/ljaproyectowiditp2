@@ -4,7 +4,8 @@ body{
     background-color: #777;
     color:#fefefe
 }
-div{display: flex}
+div{display:grid;
+}
 a{display:;}
 .autopaggani{
     border-radius: 8px;
