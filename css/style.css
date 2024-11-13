@@ -1,5 +1,13 @@
 p {
     color: black;
+    justify-content: center;
+    
+
+}
+
+stand {
+
+    font:900 ;
 }
 
 body {
@@ -23,6 +31,17 @@ menu{
     display:flex;
 
 }
+.espaciochill{
+    padding: 10px 10px 10px 50px;
+}
+.carapagani{
+    border-radius: 50px ;
+    display: flex;
+    height: 200px;
+    width: 250px;   
+    padding:  0 0 0 300px;
+    animation:;
+}
 
 
 .image-container{
@@ -45,10 +64,11 @@ menu{
 }
 
 .autopaggani {
-    border-radius: 19px;
+    border-radius: 25% 25%;
     display: flex;
     height: 200px;
     width: 400px;
+    padding:10px 0 0 100px; 
 }
 
 h1 {
@@ -71,6 +91,7 @@ h1 {
 }
 
 .titulop {
+    font-family:Times New Roman, Times, serif ;
     font-size: 30px;
     font: bold;
     color: #2208a5;
