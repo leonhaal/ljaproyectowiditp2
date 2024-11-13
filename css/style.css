@@ -1,6 +1,7 @@
 p {
     color: black;
     justify-content: center;
+    font-family: Century Gothic;
     
 
 }
@@ -13,7 +14,7 @@ stand {
 body {
     
     display: flexbox;
-    background-color: #777;
+    background-color: #a9a9a9;
     color: #fefefe;
 }
 
@@ -29,6 +30,7 @@ menu{
    justify-content: center;
     background-color: beige;
     display:flex;
+    
 
 }
 .espaciochill{
