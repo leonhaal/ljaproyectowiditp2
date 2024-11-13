@@ -5,7 +5,10 @@
   }
   
   body {
-background-image: url(taller.jpg);
+    background-image: url('../imput/tallerrr.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center; 
   }
   
   .form-register {
