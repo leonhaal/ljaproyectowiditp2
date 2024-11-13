@@ -12,7 +12,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Estilo de Encabezado */
+
 .header {
     background-color: #003366;
     color: #fff;
@@ -28,7 +28,7 @@ body {
     font-size: 1.2em;
 }
 
-/* Estilo de Sección de Servicios */
+
 .services {
     padding: 20px;
     text-align: center;
@@ -74,7 +74,7 @@ body {
     color: #666;
 }
 
-/* Sección de Contacto */
+
 .contact {
     padding: 20px;
     background-color: #eee;
@@ -97,7 +97,6 @@ body {
     font-weight: bold;
 }
 
-/* Pie de Página */
 .footer {
     background-color: #003366;
     color: #fff;

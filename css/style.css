@@ -47,7 +47,7 @@ menu{
 
 
 .autopaggani {
-    border-radius: 25% 25%;
+    border-radius: 0% 0%;
     display: flex;
     height: 200px;
     width: 400px;
@@ -55,6 +55,7 @@ menu{
 }
 
 h1 {
+
     justify-content: center;
     align-items: center;
     font: fira 80px;
@@ -64,6 +65,7 @@ h1 {
     letter-spacing: 10px;
     animation: titulo 15s 1;
 }
+
 @keyframes titulo{
     0%{
         transform: translateX(-300%);
@@ -80,6 +82,7 @@ h1 {
     color: #3e3472;
 
 }
+
 .image-container{
     justify-content: center;
     overflow: hidden;
@@ -90,6 +93,7 @@ h1 {
     width: 300px;
     animation: movimiento 15s 1;
 }
+
 @keyframes movimiento{
     0%{
         transform: translateX(-200%);
@@ -105,10 +109,14 @@ h2 {
     text-shadow: 1px 1px 1px; 
 
 }
-h2 { opacity: 0;
-	
+
+h2 { 
+    justify-content: left;
+    opacity: 0;
+	text-align: center;
 	animation: aparecer 2s forwards; 
 }
+
 @keyframes aparecer {
 	0% {
 		opacity:0;
