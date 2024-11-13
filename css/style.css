@@ -34,36 +34,17 @@ menu{
 
 }
 .espaciochill{
-    padding: 10px 10px 10px 300px;
+    padding: 100px 10px 10px 300px;
 }
 .carapagani{
     border-radius: 50px ;
     display: flex;
     height: 200px;
-    width: 250px;   
-    padding:  0 0 0 300px;
+    width: 400px;   
+    padding:  10opx 10px 10px 10px;
 
 }
 
-
-.image-container{
-    justify-content: center;
-    overflow: hidden;
-    width: 100vw;
-}
-
-.animated-image{
-    width: 300px;
-    animation: movimiento 15s 1;
-}
-@keyframes movimiento{
-    0%{
-        transform: translateX(-200%);
-    }
-    10%{
-        transform: translateX(0%);
-    }
-}
 
 .autopaggani {
     border-radius: 25% 25%;
@@ -98,6 +79,24 @@ h1 {
     font: bold;
     color: #3e3472;
 
+}
+.image-container{
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.animated-image{
+    width: 300px;
+    animation: movimiento 15s 1;
+}
+@keyframes movimiento{
+    0%{
+        transform: translateX(-200%);
+    }
+    10%{
+        transform: translateX(0%);
+    }
 }
 
 h2 {
