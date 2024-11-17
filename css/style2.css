@@ -18,6 +18,8 @@ body {
     color: #fff;
     text-align: center;
     padding: 20px;
+    animation: moverse 15s 1;
+
 }
 
 .header h1 {
@@ -28,6 +30,18 @@ body {
     font-size: 1.2em;
 }
 
+.header a{
+   color: rgb(255, 255, 255);
+}
+
+@keyframes moverse{
+    0%{
+        transform: translateX(-200%);
+    }
+    10%{
+        transform: translateX(0%);
+    }
+}
 
 .services {
     padding: 20px;
@@ -108,3 +122,24 @@ body {
 .footer p {
     font-size: 0.9em;
 }
+
+.service-item{
+    transition: transform 0.2s; 
+  }
+  .service-item:hover {
+    transform: scale(1.2); 
+  }
+  
+  .service-item{
+    opacity: 0;
+    animation: aparecer 2s forwards; 
+  }
+  @keyframes aparecer {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+  }
+ 

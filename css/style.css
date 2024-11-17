@@ -3,6 +3,8 @@ p {
     justify-content: center;
     font-family: Century Gothic;
     text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5;
 
 }
 stand {
@@ -55,6 +57,7 @@ a {
 
 
 .autopaggani {
+
     border-radius: 0% 0%;
     display: flex;
     height: 200px;
@@ -63,7 +66,7 @@ a {
 }
 
 h1 {
-
+    text-align: center;
     justify-content: center;
     align-items: center;
     font: fira 80px;
@@ -72,6 +75,7 @@ h1 {
     text-shadow: 5px 7px 7px;
     letter-spacing: 10px;
     animation: titulo 15s ;
+    line-height: 4;
 }
 
 @keyframes titulo{
@@ -84,6 +88,7 @@ h1 {
 }
 
 .titulop {
+
     font-family: Eras Bold ITC;
     font-size: 30px;
     font: bold;
@@ -91,15 +96,13 @@ h1 {
 
 }
 
-.image-container{
+.image-container {
+
     justify-content: center;
     overflow: hidden;
     width: 100vw;
-}
-
-.animated-image{
-    width: 300px;
     animation: movimiento 15s 1;
+
 }
 
 @keyframes movimiento{
@@ -123,6 +126,8 @@ h2 {
     opacity: 0;
 	text-align: center;
 	animation: aparecer 2s forwards; 
+    margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 @keyframes aparecer {
