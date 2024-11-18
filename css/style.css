@@ -81,6 +81,12 @@ h1 {
 
 }
 
+h1:hover{
+    transform:translateX(-40px);
+
+}
+
+
 @keyframes titulo{
     0%{
         transform: translateX(-300%);
@@ -106,7 +112,12 @@ h1 {
     overflow: hidden;
     width: 100vw;
     animation: movimiento 15s 1;
+    transition: transform 0.5s ease; 
 
+}
+
+.image-container:hover {
+    transform:translateX(-20px);
 }
 
 @keyframes movimiento{
@@ -133,6 +144,7 @@ h2 {
     margin-bottom: 30px;
     line-height: 1.5;
 }
+
 
 @keyframes aparecer {
 	0% {
