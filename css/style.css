@@ -1,5 +1,5 @@
 p {
-    color: black;
+    color: rgb(246, 246, 246);
     justify-content: center;
     font-family: Century Gothic;
     text-align: center;
@@ -7,6 +7,7 @@ p {
     line-height: 1.5;
 
 }
+
 stand {
 
     font:900 ;
@@ -15,8 +16,9 @@ stand {
 body {
     
     display: flexbox;
-    background-color: #a9a9a9;
+    background-color: #0d0d0d;
     color: #fefefe;
+
 }
 
 div {
@@ -42,7 +44,6 @@ a {
     opacity: 1;
   }
 }
-
 .espaciochill{
     padding: 100px 10px 10px 300px;
 }
@@ -76,6 +77,8 @@ h1 {
     letter-spacing: 10px;
     animation: titulo 15s ;
     line-height: 4;
+    font-size: 50px;
+
 }
 
 @keyframes titulo{
@@ -89,10 +92,11 @@ h1 {
 
 .titulop {
 
-    font-family: Eras Bold ITC;
+    font-family: century gothic;
     font-size: 30px;
     font: bold;
-    color: #3e3472;
+    color: #150f34;
+  
 
 }
 
@@ -133,13 +137,77 @@ h2 {
 @keyframes aparecer {
 	0% {
 		opacity:0;
+        width: 0%;
+        white-space: nowrap;
+        overflow: hidden;
 	}
 	100% {
 		opacity: 1; 
+        width: 100%;
     }
 }
 
+.parrafo-1 {
+        transition: transform 0.5s ease; 
+    }
+.parrafo-1:hover {
+        transform:translateY(-10px);
+}
 
+.parrafo-2 {
+    transition: transform 0.5s ease; 
+}
+.parrafo-2:hover {
+    transform:translateY(-10px);
+}
+
+.parrafo-3{
+    transition: transform 0.5s ease; 
+}
+.parrafo-3:hover {
+    transform:translateY(-10px);
+}
+
+.parrafo-5 {
+    transition: transform 0.5s ease; 
+}
+.parrafo-5:hover {
+    transform:translateY(-10px);
+}
+
+.parrafo-6 {
+    transition: transform 0.5s ease; 
+}
+.parrafo-6:hover {
+    transform:translateY(-10px);
+}
+.parrafo-7 {
+    transition: transform 0.5s ease; 
+}
+.parrafo-7:hover {
+    transform:translateY(-10px);
+}
+
+.parrafo-8 {
+    transition: transform 0.5s ease; 
+}
+.parrafo-8:hover {
+    transform:translateY(-10px);
+}
+
+.parrafo-9 {
+    transition: transform 0.5s ease; 
+}
+.parrafo-9:hover {
+    transform:translateY(-10px);
+}
+
+.parrafo.10 {
+    transition: transform 0.5s ease; 
+}
+.parrafo.10:hover {
+    transform:translateY(-10px);
+}
 
 p { 
     justify-content: left;
@@ -156,3 +224,37 @@ p {
 		opacity: 1; 
     }
 }
+
+
+
+  .nav {
+    font-family: 'Titillium Web';
+    font-weight: 600;
+  }
+
+  body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color: rgba(255, 255, 255, 0.233); 
+    backdrop-filter: blur(10px); 
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7);
+    
+   }
+   
+ 
+
+
+.titulop   {
+    color: #00BFFF; /* Azul neón */
+    text-shadow: 
+      0 0 5px #00BFFF,
+      0 0 10px #00BFFF,
+      0 0 15px #00BFFF,
+      0 0 20px #00BFFF;
+    font-size: 24px;
+    font-weight: bold;
+      }
+      
+      

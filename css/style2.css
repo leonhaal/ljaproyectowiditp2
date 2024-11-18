@@ -143,3 +143,17 @@ body {
     }
   }
  
+p {
+    font-family: century Gothic;
+}
+
+h2 {
+    font-family: arial black;
+}
+
+a:hover {
+    background-color: #5a65ff;
+    padding: 5px;
+    border: 1px solid #5a65ff;
+    border-radius: 20px;
+}
